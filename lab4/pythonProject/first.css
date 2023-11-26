@@ -1,0 +1,46 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background-color: #e9e2db;
+  color: #6e0c2c;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+h1 {
+  font-size: 36px;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+table {
+  padding-left: 30px;
+  padding-top: 30px;
+  border-spacing: 15px;
+  margin-left: -10px;
+}
+
+input {
+  background-color: #e1dbd5;
+  border-radius: 5px;
+  border: 2px solid #6e0c2c;
+}
+
+select {
+  border: 2px solid #6e0c2c;
+  border-radius: 5px;
+  background-color: #e1dbd5;
+  width: 290px;
+}
+
+button {
+  background-color: #e1dbd5;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 10px;
+  border: 2px solid #6e0c2c;
+  border-radius: 10px;
+  font-weight: 600;
+}

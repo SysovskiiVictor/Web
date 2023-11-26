@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset=UTF-8> 
+  <title>Обратная связь</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+  <h1>Заполните форму обратной связи</h1>
+
+  <section id="order" class="order">
+    <form action="first.php" method="post">
+      <table>
+        <tr><td>Имя:</td><td><input type="text" id="name" name="name"></td></tr>
+        <tr><td>Фамилия:</td><td><input type="text" id="surname" name="surname"></td></tr>
+        <tr><td>Email:</td><td><input type="email" id="email" name="email"></td></tr>
+		<tr><td>Обратная связь:</td><td><input type="text" id="back" name="back"></td></tr>
+
+        <tr>
+          <td>Какой чай вы купили?</td>
+          <td>
+            <input type="checkbox" id="puer" name="products[]" value="Puer">
+            <label for="puer">Пуэр</label>
+
+            <input type="checkbox" id="oolung" name="products[]" value="Oolung">
+            <label for="oolung">Улун</label>
+
+            <input type="checkbox" id="milky_oolung" name="products[]" value="Milky_oolung">
+            <label for="milky_oolung">Молочный улун</label>
+
+            <input type="checkbox" id="roy_bush" name="products[]" value="Roy_Bush">
+            <label for="roy_bush">Рой буш</label>
+
+            <input type="checkbox" id="da_hong_pao" name="products[]" value="Da_Hong_Pao">
+            <label for="da_hong_pao">Да хун пао</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Сколько грамм вы купили?</td>
+          <td>
+            <input type="checkbox" id="zero" name="grums[]" value="zero">
+            <label for="zero">0-50</label>
+
+            <input type="checkbox" id="fifty" name="grums[]" value="fifty">
+            <label for="fifty">50-200</label>
+
+            <input type="checkbox" id="two_hundred" name="grums[]" value="two_hundred">
+            <label for="two_hundred">200-500</label>
+
+            <input type="checkbox" id="five_hundred" name="grums[]" value="five_hundred">
+            <label for="five_hundred">500-1000</label>
+
+            <input type="checkbox" id="too_many" name="grums[]" value="too_many">
+            <label for="too_many">1000 и более</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Дополнительные покупки</td>
+          <td>
+            <input type="checkbox" id="yes" name="yn[]" value="yes">
+            <label for="yes">Будда глиняный</label>
+
+            <input type="checkbox" id="no" name="yn[]" value="no">
+            <label for="no">Чайник из исинской глины</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Ваш пол:</td>
+          <td>
+            <input type="radio" id="radio_option1" name="additional_info1" value="option1">
+            <label for="radio_option1">Мужской</label>
+
+            <input type="radio" id="radio_option2" name="additional_info1" value="option2">
+            <label for="radio_option2">Женский</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Вы удовлетворены покупкой?</td>
+          <td>
+            <input type="radio" id="radio_option3" name="additional_info2" value="option3">
+            <label for="radio_option3">Да</label>
+
+            <input type="radio" id="radio_option4" name="additional_info2" value="option4">
+            <label for="radio_option4">Нет</label>
+          </td>
+        </tr>
+
+      </table>
+
+      <button type="submit">Отправить</button>
+
+    </form>
+  </section>
+</body>
+
+</html>
